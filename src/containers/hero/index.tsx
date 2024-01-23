@@ -21,8 +21,7 @@ function Hero() {
           </ImageWrapper>
           <GradientContainer>
             <GradientWrapper>
-              <GradientGreen src={Green} />
-              <GradientPurple src={Purple} />
+
             </GradientWrapper>
           </GradientContainer>
         </Wrapper>
@@ -35,7 +34,9 @@ function Hero() {
 // with a gradient AND a primary 400 background. What it does it is extends the
 // hero by a height of 12, moves it up using the negative margin and compensates
 // by lowering the content using the padding-top. Same with factor 12 on
-// desktop.
+// desktop.             
+// <GradientGreen src={Green} />
+// <GradientPurple src={Purple} />
 const Container = styled.div.attrs({
   className:
     'bg-neutral-900 h-[448px] -mt-20 pt-20  xl:h-[536px] xl:pt-24 xl:-mt-24 overflow-hidden', //bg-neutral-900 h-[448px] -mt-20 pt-20  xl:h-[536px] xl:pt-24 xl:-mt-24 overflow-hidden
