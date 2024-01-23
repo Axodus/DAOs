@@ -38,7 +38,7 @@ function Hero() {
 // desktop.
 const Container = styled.div.attrs({
   className:
-    'bg-primary-900 h-[448px] -mt-20 pt-20  xl:h-[536px] xl:pt-24 xl:-mt-24 overflow-hidden', //bg-primary-400 h-[448px] -mt-20 pt-20  xl:h-[536px] xl:pt-24 xl:-mt-24 overflow-hidden
+    'bg-neutral-900 h-[448px] -mt-20 pt-20  xl:h-[536px] xl:pt-24 xl:-mt-24 overflow-hidden', //bg-primary-400 h-[448px] -mt-20 pt-20  xl:h-[536px] xl:pt-24 xl:-mt-24 overflow-hidden
 })``;
 
 const Wrapper = styled.div.attrs({
