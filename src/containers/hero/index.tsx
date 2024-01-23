@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import Logo from 'public/A-icon.png';
-import Green from 'public/circleGreenGradient.png';
-import Purple from 'public/purpleGradient.png';
+import Green from 'public/circleGreenGradient.svg';
+import Purple from 'public/purpleGradient.svg';
 import {useTranslation} from 'react-i18next';
 import {GridLayout} from 'components/layout';
 
