@@ -21,8 +21,8 @@ function Hero() {
           </ImageWrapper>
           <GradientContainer>
             <GradientWrapper>
-              <GradientGreen src={Green} />
-              <GradientPurple src={Purple} />
+              <GradientGreen src={} />
+              <GradientPurple src={} />
             </GradientWrapper>
           </GradientContainer>
         </Wrapper>
