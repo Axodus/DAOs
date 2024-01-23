@@ -98,7 +98,7 @@ const DummyElement = styled.div.attrs({
 
 const UpdateContainer = styled.div.attrs({
   className:
-    'flex justify-between items-center py-2 px-6 bg-primary-400' as string,
+    'flex justify-between items-center py-2 px-6 bg-neutral-900' as string,
 })``;
 
 const TextWrapper = styled.div.attrs({

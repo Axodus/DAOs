@@ -83,7 +83,7 @@ const StyledButton = styled(ButtonBase).attrs<StyledButtonProps>(
         break;
 
       default:
-        className = `${isActive ? 'bg-primary-700' : 'bg-primary-400'} ${
+        className = `${isActive ? 'bg-primary-700' : 'bg-neutral-900'} ${
           paddingStyles[size]
         } text-neutral-0 hover:bg-primary-500 active:bg-primary-700 disabled:text-primary-300 disabled:bg-primary-100`;
     }

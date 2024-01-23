@@ -60,7 +60,7 @@ const Footer: React.FC = () => {
           </ActionContainer>
         </FullSpan>
       </GridLayout>
-      <div className="z-10 flex items-center justify-center space-x-2 bg-primary-400 py-1 text-sm leading-normal text-neutral-0">
+      <div className="z-10 flex items-center justify-center space-x-2 bg-neutral-900 py-1 text-sm leading-normal text-neutral-0">
         <IconInfo />
         <span>Aragon App Public Beta</span>
       </div>
@@ -75,7 +75,7 @@ const FullSpan = styled.div.attrs({
 `;
 
 const Section = styled.section.attrs({
-  className: 'w-full bg-primary-400 overflow-hidden',
+  className: 'w-full bg-neutral-900 overflow-hidden',
 })``;
 
 const ActionContainer = styled.div.attrs({
