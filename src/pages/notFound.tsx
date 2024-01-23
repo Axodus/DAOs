@@ -7,8 +7,8 @@ import {ButtonText} from '@aragon/ods-old';
 import {Container, GridLayout} from 'components/layout';
 import Logo from 'public/logoBlue.svg';
 import Logo404 from 'public/illu-custom.svg';
-import Green from 'public/circleGreenGradient.svg';
-import Purple from 'public/purpleGradient.svg';
+import Green from 'public/circleGreenGradient.png';
+import Purple from 'public/purpleGradient.png';
 import {Landing} from 'utils/paths';
 
 export const NotFound: React.FC = () => {
@@ -46,8 +46,8 @@ export const NotFound: React.FC = () => {
             </div>
 
             <div className="relative mt-4 xl:mt-0 xl:w-1/2">
-              <GradientGreen src={} />
-              <GradientPurple src={} />
+              <GradientGreen src={Green} />
+              <GradientPurple src={Purple} />
               <img src={Logo404} className="w-full" />
             </div>
           </Wrapper>

@@ -1,8 +1,8 @@
 import React from 'react';
 import styled from 'styled-components';
 import Logo from 'public/A-icon.png';
-import Green from 'public/circleGreenGradient.svg';
-import Purple from 'public/purpleGradient.svg';
+import Green from 'public/circleGreenGradient.png';
+import Purple from 'public/purpleGradient.png';
 import {useTranslation} from 'react-i18next';
 import {GridLayout} from 'components/layout';
 
@@ -21,8 +21,8 @@ function Hero() {
           </ImageWrapper>
           <GradientContainer>
             <GradientWrapper>
-              <GradientGreen src={} />
-              <GradientPurple src={} />
+              <GradientGreen src={Green} />
+              <GradientPurple src={Purple} />
             </GradientWrapper>
           </GradientContainer>
         </Wrapper>
