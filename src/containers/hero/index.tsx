@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Logo from 'public/coloredLogo.svg';
+import Logo from 'public/A-icon.png';
 import Green from 'public/circleGreenGradient.svg';
 import Purple from 'public/purpleGradient.svg';
 import {useTranslation} from 'react-i18next';
@@ -38,7 +38,7 @@ function Hero() {
 // desktop.
 const Container = styled.div.attrs({
   className:
-    'bg-primary-400 h-[448px] -mt-20 pt-20  xl:h-[536px] xl:pt-24 xl:-mt-24 overflow-hidden',
+    'bg-neutral-900 h-[448px] -mt-20 pt-20  xl:h-[536px] xl:pt-24 xl:-mt-24 overflow-hidden', //bg-neutral-900 h-[448px] -mt-20 pt-20  xl:h-[536px] xl:pt-24 xl:-mt-24 overflow-hidden
 })``;
 
 const Wrapper = styled.div.attrs({

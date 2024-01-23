@@ -10,7 +10,7 @@ import {
 import {useTranslation} from 'react-i18next';
 
 import {useWallet} from 'hooks/useWallet';
-import Logo from 'public/logo.svg';
+import Logo from 'public/Axodus_logo.png';
 import {useGlobalModalContext} from 'context/globalModals';
 import {Container, GridLayout} from 'components/layout';
 import {FEEDBACK_FORM} from 'utils/constants';
@@ -89,7 +89,7 @@ const ExploreNav: React.FC = () => {
 const Menu = styled.nav.attrs({
   className: 'py-4 xl:py-6',
 })`
-  background: linear-gradient(180deg, #3164fa 0%, rgba(49, 100, 250, 0) 100%);
+  background: linear-gradient(180deg, #222222 0%, rgba(49, 100, 250, 0) 100%);
 `;
 
 const LeftContent = styled.div.attrs({
