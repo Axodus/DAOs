@@ -46,8 +46,8 @@ export const NotFound: React.FC = () => {
             </div>
 
             <div className="relative mt-4 xl:mt-0 xl:w-1/2">
-              <!-- <GradientGreen src={Green} />
-              <GradientPurple src={Purple} /> -->
+              <GradientGreen src={Green} />
+              <GradientPurple src={Purple} /> 
               <img src={Logo404} className="w-full" />
             </div>
           </Wrapper>
