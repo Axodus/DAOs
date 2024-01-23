@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import Logo from 'public/coloredLogo.svg';
+import Logo from 'public/A-icon.png';
 import Green from 'public/circleGreenGradient.svg';
 import Purple from 'public/purpleGradient.svg';
 import {useTranslation} from 'react-i18next';
