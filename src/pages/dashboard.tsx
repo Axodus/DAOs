@@ -292,7 +292,7 @@ export const Dashboard: React.FC = () => {
             daoEnsName={toDisplayEns(liveDao.ensDomain)}
             daoAddress={liveDao.address}
             daoAvatar={liveDao?.metadata?.avatar}
-            daoUrl={`app.aragon.org/#/daos/${network}/${liveAddressOrEns}`}
+            daoUrl={`dao.axodus.finance/#/daos/${network}/${liveAddressOrEns}`}
             description={liveDao.metadata.description}
             created_at={formatDate(
               liveDao.creationDate.getTime() / 1000,

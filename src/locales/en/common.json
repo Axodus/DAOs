@@ -15,15 +15,15 @@
     "exploreLinkLabel": "Explore",
     "exploreLinkURL": "/",
     "learnLinkLabel": "Learn",
-    "learnLinkURL": "https://aragon.org/education-portal",
+    "learnLinkURL": "https://axodus.finance/education-portal",
     "buildLinkLabel": "Build",
-    "buildLinkURL": "https://devs.aragon.org/",
+    "buildLinkURL": "https://devs.axodus.finance/",
     "helpLinkLabel": "Help",
     "helpLinkURL": "https://discord.gg/AhzsGmh7fK",
     "termsLinkLabel": "Terms of service",
-    "termsLinkURL": "https://aragon.org/terms-and-conditions",
+    "termsLinkURL": "https://axodus.finance/terms-and-conditions",
     "privacyLinkLabel": "Privacy",
-    "privacyLinkURL": "https://aragon.org/privacy-policy",
+    "privacyLinkURL": "https://axodus.finance/privacy-policy",
     "members": "Members"
   },
   "daoSwitcher": {
@@ -269,7 +269,7 @@
     "emptyState": {
       "title": "Make your first deposit",
       "description": "Begin by making your first treasury deposit. Learn more about managing a DAO treasury {{link}}.",
-      "descriptionLinkURL": "https://aragon.org/how-to/manage-a-dao-treasury",
+      "descriptionLinkURL": "https://axodus.finance/how-to/manage-a-dao-treasury",
       "descriptionLinkLabel": "in this guide",
       "buttonLabel": "Deposit funds"
     },
@@ -293,7 +293,7 @@
       "desc": "To add funds to your DAO, make a deposit. Learn more about it {{link}}.",
       "title": "No tokens found",
       "descLinkLabel": "in this guide",
-      "descLinkURL": "https://aragon.org/how-to/manage-a-dao-treasury"
+      "descLinkURL": "https://axodus.finance/how-to/manage-a-dao-treasury"
     }
   },
   "governance": {
@@ -305,10 +305,10 @@
       "title": "Create your first proposal",
       "subtitle": "What's the first thing your community needs to decide? For ideas on how to structure proposals, {{link}}.",
       "subtitleLinkLabel": "read this guide",
-      "subtitleLinkURL": "https://aragon.org/how-to/structure-dao-proposals-and-build-proposal-processes",
+      "subtitleLinkURL": "https://axodus.finance/how-to/structure-dao-proposals-and-build-proposal-processes",
       "description": "Get your community involved in the decision-making process. Learn more in our {{link}}.",
       "descriptionLinkLabel": "proposal guide",
-      "descriptionLinkURL": "https://aragon.org/how-to/structure-dao-proposals-and-build-proposal-processes"
+      "descriptionLinkURL": "https://axodus.finance/how-to/structure-dao-proposals-and-build-proposal-processes"
     },
     "proposals": {
       "publishedBy": "Published by",
@@ -678,7 +678,7 @@
       "title": "Select blockchain",
       "description": "The chain you choose is where your tokens and assets are stored. If you already have a token, choose the chain your token is minted on. This cannot be changed later. For help selecting your chain, read our guide on choosing the best {{link}}.",
       "descriptionLinkLabel": "blockchain for your DAO",
-      "descriptionLinkURL": "https://aragon.org/how-to/choose-the-right-blockchain-for-your-dao"
+      "descriptionLinkURL": "https://axodus.finance/how-to/choose-the-right-blockchain-for-your-dao"
     },
     "step2": {
       "label": "Step 2",
@@ -690,7 +690,7 @@
       "linksSubtitle": "Links to your DAO's website, social media profiles, Discord, or other places your community gathers.",
       "metadataOverviewGuide": "read our guide",
       "descriptionLinkLabel": "read our guide",
-      "descriptionLinkURL": "https://aragon.org/how-to/build-a-dao-brand-identity",
+      "descriptionLinkURL": "https://axodus.finance/how-to/build-a-dao-brand-identity",
       "ensNameSubtitle": "This will be your DAO’s unique ENS subdomain, created automatically for you. Lowercase letters, numbers, and the dash '-' are all acceptable characters; ideally, the character count should be under 128."
     },
     "step3": {
@@ -724,7 +724,7 @@
         "verificationAlertCriticalTitle": "Not supported token",
         "verificationAlertWarningDescription": "This token must be wrapped by its holders to participate in your DAO's governance.\n\nToken holders can wrap their tokens within the Aragon App at any time to receive equivalent governance tokens (1 {{tokenSymbol}} = 1 {{gTokenSymbol}}). These can then be used to vote on proposals in your DAO. They can unwrap at any time to receive their original tokens.",
         "verificationAlertCriticalDescription": "This token is not supported in the Aragon App. Try a different token or specify that you don't have a governance token yet.",
-        "descriptionLinkURL": "https://aragon.org/how-to/import-existing-tokens",
+        "descriptionLinkURL": "https://axodus.finance/how-to/import-existing-tokens",
         "verificationLabelBlockchain": "Blockchain",
         "verificationAlertCriticalBlockchainTitle": "Incorrect blockchain",
         "verificationAlertCriticalBlockchainDescription": "This token is deployed on a different blockchain than the one you chose for your DAO. Use a token deployed on {{blockchainName}}."
@@ -756,7 +756,7 @@
       "whiteListWalletAlertText": "Your connected wallet was automatically added to the list. You can remove it if you like.",
       "createTokenHelptext": "Define the token details and distribute tokens to a core team and DAO treasury. For more on token minting best practices, {{link}}",
       "createTokenHelptextLinkLabel": "read this guide",
-      "createTokenHelptextLinkURL": "https://aragon.org/how-to/mint-dao-governance-tokens",
+      "createTokenHelptextLinkURL": "https://axodus.finance/how-to/mint-dao-governance-tokens",
       "membership": "Who can participate in governance?",
       "eligibility": {
         "optionTitle": "Who is eligible?",
@@ -779,9 +779,9 @@
       },
       "membershipSubtitle": "You can always start with a multisig and mint tokens later.",
       "descriptionLinkLabel": "read this guide",
-      "descriptionLinkURL": "https://aragon.org/how-to/set-up-your-dao-governance-in-8-steps",
+      "descriptionLinkURL": "https://axodus.finance/how-to/set-up-your-dao-governance-in-8-steps",
       "distributeTokensHelpertextLinkLabel": "read our guide",
-      "distributeTokensHelpertextLinkURL": "https://aragon.org/how-to/distribute-a-dao-governance-token",
+      "distributeTokensHelpertextLinkURL": "https://axodus.finance/how-to/distribute-a-dao-governance-token",
       "blockChainVoting": {
         "label": "On what blockchain will community voting take place?",
         "optionOnchainLabel": "{{blockchainName}}",
@@ -818,7 +818,7 @@
         "1AddressOnly": "The approval threshold can’t be changed because there is only 1 address."
       },
       "descriptionLinkLabel": "this guide",
-      "descriptionLinkURL": "https://aragon.org/how-to/governance-ii-setting-dao-governance-thresholds",
+      "descriptionLinkURL": "https://axodus.finance/how-to/governance-ii-setting-dao-governance-thresholds",
       "shortTitle": "Select governance settings",
       "wrappedReferenceTitle": "Reference values",
       "wrappedReferenceDesc": "The amount of {{gTokenSymbol}} that must vote to meet minimum participation depends on the amount of {{tokenSymbol}} that is wrapped. The values on this screen with an asterisk are for reference only. You can evaluate different scenarios by adjusting the following value. Learn more about {{link}}.",
@@ -830,7 +830,7 @@
       "wrappedReferenceMinParticipation": "Minimum participation",
       "wrappedReferenceMinParticipationDesc": "{{minParticipationValue}} of {{gTokenSymbol}} total supply",
       "wrappedReferenceDescLinkLabel": "in our guide",
-      "wrappedReferenceDescLinkURL": "https://aragon.org/how-to/import-existing-tokens",
+      "wrappedReferenceDescLinkURL": "https://axodus.finance/how-to/import-existing-tokens",
       "wrappedReferenceValueLabel": "{{tokenSymbol}}",
       "wrappedReferenceParticipationValueLabel": "{{gTokenSymbol}} *"
     },
@@ -1038,7 +1038,7 @@
     },
     "learn": {
       "linkLabel": "Learn about DAOs",
-      "linkURL": "https://aragon.org/education-portal"
+      "linkURL": "https://axodus.finance/education-portal"
     },
     "toggleFilter": {
       "Favourites": "Following",
@@ -1116,7 +1116,7 @@
     "rejectAllCookies": "Reject all",
     "acceptSelectedCookies": "Accept",
     "content": "We use cookies and similar technologies to improve your experience, enable certain features, and analyze our application usage. You may opt-out of cookies here. Learn more in our {{link}}.",
-    "contentLinkURL": "https://aragon.org/privacy-policy",
+    "contentLinkURL": "https://axodus.finance/privacy-policy",
     "contentLinkLabel": "privacy policy"
   },
   "transactionDetail": {
@@ -1193,7 +1193,7 @@
     }
   },
   "logo": {
-    "linkURL": "https://aragon.org/"
+    "linkURL": "https://axodus.finance/"
   },
   "modal": {
     "deposit": {
@@ -1217,7 +1217,7 @@
     },
     "claimPoap": {
       "ctaLabel": "Claim POAP now",
-      "ctaURL": "https://poap-claim-app.aragon.org/",
+      "ctaURL": "https://poap-claim-dao.axodus.finance/",
       "title": "Claim your DAO Builder POAP"
     },
     "mintTokensToTreasury": {
@@ -1304,7 +1304,7 @@
         "title": "You have no voting power",
         "ctaLabel": "Ok, understood",
         "Link": "Learn more",
-        "LinkURL": "https://aragon.org/how-to/delegate-your-voting-power"
+        "LinkURL": "https://axodus.finance/how-to/delegate-your-voting-power"
       },
       "CantVote": {
         "title": "You can't vote",
@@ -1434,7 +1434,7 @@
       "title": "No smart contract added",
       "description": "Add a smart contract to interact with it. To learn more, read {{link}}.",
       "modalTitle": "Smart contract composer",
-      "descriptionLinkURL": "https://aragon.org/how-to/interact-with-external-contracts-from-your-dao",
+      "descriptionLinkURL": "https://axodus.finance/how-to/interact-with-external-contracts-from-your-dao",
       "descriptionLinkLabel": "our guide"
     },
     "abi": {
@@ -1456,7 +1456,7 @@
       "contractAmountActions": "{{amount}} actions",
       "ctaLabel": "Connect smart contract",
       "learnLinkLabel": "Learn more",
-      "learnLinkURL": "https://aragon.org/how-to/interact-with-external-contracts-from-your-dao",
+      "learnLinkURL": "https://axodus.finance/how-to/interact-with-external-contracts-from-your-dao",
       "proxyContractAddressLabel": "{{contractAddress}} as proxy",
       "noActionsFound": "No write actions found"
     },
@@ -1502,7 +1502,7 @@
       "desc": "Wrap your {{tokenSymbol}} to become a member of the DAO community. This will enable you to participate in governance. Learn more about it {{link}}.",
       "ctaLabel": "Join the DAO",
       "descLinkLabel": "in our guide",
-      "descLinkURL": "https://aragon.org/how-to/import-existing-tokens"
+      "descLinkURL": "https://axodus.finance/how-to/import-existing-tokens"
     },
     "ctaMain": {
       "wrappedLabel": "Join the DAO"
@@ -1544,7 +1544,7 @@
       "ctaLabel": "Wrap tokens",
       "cancleLabel": "Cancel",
       "descLinkLabel": "our guide",
-      "descLinkURL": "https://aragon.org/how-to/import-existing-tokens"
+      "descLinkURL": "https://axodus.finance/how-to/import-existing-tokens"
     },
     "noTokensFound": {
       "title": "Tokens not found",
@@ -1674,13 +1674,13 @@
       },
       "itemCritical": {
         "linkLabel": "View details",
-        "linkURL": "https://devs.aragon.org/docs/sdk/update-security-check/"
+        "linkURL": "https://devs.axodus.finance/docs/sdk/update-security-check/"
       },
       "itemCriticalFailed": {
         "desc": "One or more of our checks found that these actions are not constructed properly, indicating that this update is harmful."
       },
       "descLinkLabel": "read our guide",
-      "descLinkURL": "https://aragon.org/how-to/update-your-aragon-dao"
+      "descLinkURL": "https://axodus.finance/how-to/update-your-aragon-dao"
     }
   },
   "setting": {
@@ -1704,7 +1704,7 @@
       "title": "Community voting parameters",
       "desc": "Establish the conditions that determine the passage of a proposal during the community voting phase. How much support does the proposal need? How much of the community needs to participate? How long is the proposal open for voting? Learn more in {{link}}.",
       "descLinkLabel": "this guide",
-      "descLinkURL": "https://aragon.org/how-to/governance-ii-setting-dao-governance-thresholds"
+      "descLinkURL": "https://axodus.finance/how-to/governance-ii-setting-dao-governance-thresholds"
     },
     "executionMultisig": {
       "title": "Define your execution multisig",
