@@ -6,7 +6,7 @@ import {GridLayout} from 'components/layout';
 import {StyledLink} from 'components/styledLink';
 import useScreen from 'hooks/useScreen';
 import Green from 'public/greenGradient.svg';
-import IconLogo from 'public/iconLogo.svg';
+import IconLogo from 'public/Axodus_logo.png';
 import Purple from 'public/purpleGradient.svg';
 import {EXPLORE_NAV_LINKS, PRIVACY_NAV_LINKS} from 'utils/constants';
 
