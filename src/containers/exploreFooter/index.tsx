@@ -52,7 +52,7 @@ const Footer: React.FC = () => {
                 <StyledNavList>{ExploreNavLinks}</StyledNavList>
                 <StyledNavList>{PrivacyNavLinks}</StyledNavList>
                 <Copyright>
-                  &copy;{`  ${new Date().getFullYear()}  `}Aragon
+                  &copy;{`  ${new Date().getFullYear()}  `}Axodus DAO by Aragon
                 </Copyright>
               </>
             )}
@@ -61,7 +61,7 @@ const Footer: React.FC = () => {
       </GridLayout>
       <div className="z-10 flex items-center justify-center space-x-2 bg-neutral-900 py-1 text-sm leading-normal text-neutral-0">
         <IconInfo />
-        <span>Aragon App Public Beta</span>
+        <span>Axodus DAO App Public Beta</span>
       </div>
     </Section>
   );
