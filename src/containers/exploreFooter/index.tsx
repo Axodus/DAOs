@@ -30,8 +30,7 @@ const Footer: React.FC = () => {
       <GridLayout>
         <FullSpan>
           <div className="relative">
-            <GradientGreen src={Green} />
-            <GradientPurple src={Purple} />
+
           </div>
           <ActionContainer>
             {isDesktop ? (
@@ -108,3 +107,7 @@ const GradientPurple = styled.img.attrs({
 })``;
 
 export default Footer;
+
+
+//<GradientGreen src={Green} />
+//<GradientPurple src={Purple} />
