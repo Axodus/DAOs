@@ -6,7 +6,7 @@ import {GridLayout} from 'components/layout';
 import {StyledLink} from 'components/styledLink';
 import useScreen from 'hooks/useScreen';
 import Green from 'public/greenGradient.svg';
-import IconLogo from 'public/iconLogo.svg';
+import IconLogo from 'public/Axodus_logo.png';
 import Purple from 'public/purpleGradient.svg';
 import {EXPLORE_NAV_LINKS, PRIVACY_NAV_LINKS} from 'utils/constants';
 
@@ -30,8 +30,7 @@ const Footer: React.FC = () => {
       <GridLayout>
         <FullSpan>
           <div className="relative">
-            <GradientGreen src={Green} />
-            <GradientPurple src={Purple} />
+
           </div>
           <ActionContainer>
             {isDesktop ? (
@@ -53,7 +52,7 @@ const Footer: React.FC = () => {
                 <StyledNavList>{ExploreNavLinks}</StyledNavList>
                 <StyledNavList>{PrivacyNavLinks}</StyledNavList>
                 <Copyright>
-                  &copy;{`  ${new Date().getFullYear()}  `}Aragon
+                  &copy;{`  ${new Date().getFullYear()}  `}Axodus DAO by Aragon
                 </Copyright>
               </>
             )}
@@ -62,7 +61,7 @@ const Footer: React.FC = () => {
       </GridLayout>
       <div className="z-10 flex items-center justify-center space-x-2 bg-neutral-900 py-1 text-sm leading-normal text-neutral-0">
         <IconInfo />
-        <span>Aragon App Public Beta</span>
+        <span>Axodus DAO App Public Beta</span>
       </div>
     </Section>
   );
@@ -108,3 +107,7 @@ const GradientPurple = styled.img.attrs({
 })``;
 
 export default Footer;
+
+
+//<GradientGreen src={Green} />
+//<GradientPurple src={Purple} />
