@@ -298,6 +298,14 @@ export const Proposal: React.FC = () => {
         client?.decoding.findInterface(action.data) ||
         pluginClient?.decoding.findInterface(action.data);
 
+      // Check if "mint" proposal action was made through SCC or MintToken Action
+      if (
+        functionParams?.functionName === 'mint' &&
+        action.to !== proposalErc20Token?.address
+      ) {
+        functionParams.functionName = 'mintSCCAction';
+      }
+
       switch (functionParams?.functionName) {
         case 'transfer':
           return decodeWithdrawToAction(
@@ -454,11 +462,12 @@ export const Proposal: React.FC = () => {
       statusRef.current.wasOnWrongNetwork = false;
 
       // show voting in process
-      if (canVote) setVotingInProcess(true);
+      if (canVote && !isMultisigPlugin) setVotingInProcess(true);
     }
   }, [
     canVote,
     isConnected,
+    isMultisigPlugin,
     isOnWrongNetwork,
     statusRef.current.wasOnWrongNetwork,
   ]);
